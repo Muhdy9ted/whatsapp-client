@@ -1,8 +1,7 @@
 import React from 'react';
 
 import './App.css';
-import {Chat} from './components';
-import {Sidebar} from './components';
+import {Chat, Sidebar} from './components';
 
 
 function App() {

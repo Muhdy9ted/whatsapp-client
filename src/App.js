@@ -1,10 +1,16 @@
-import logo from './logo.svg';
+import React from 'react';
+
 import './App.css';
+import {Chat, Sidebar} from './components';
+
 
 function App() {
   return (
     <div className="app">
-
+      <div className="app__body">
+        <Sidebar />
+        <Chat />
+      </div>
     </div>
   );
 }
